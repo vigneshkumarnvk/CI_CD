@@ -3,7 +3,7 @@ name: Validate to main branch
 on:
   pull_request:
     types: [opened, synchronize]
-    branches: [OrgSource]
+    branches: [ main ]
     paths:
       - "force-app/**"
 
